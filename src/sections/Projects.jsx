@@ -7,7 +7,7 @@ const projects = [
       "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
     image: "/projects/project1.png",
     tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
+    link: "https://weather-app-eight-rho-84.vercel.app/",
     github: "#",
   },
   {
@@ -16,7 +16,7 @@ const projects = [
       "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
     image: "/projects/project2.png",
     tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
+    link: "https://weather-app-62j3.vercel.app/",
     github: "#",
   },
   {

@@ -1,8 +1,12 @@
 import { Github, Linkedin, Twitter, Heart } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
+  { icon: Github, href: "https://github.com/orthi123", label: "GitHub" },
+  {
+    icon: Linkedin,
+    href: "https://www.linkedin.com/in/orthi-deb-sithi-3b1b96282/",
+    label: "LinkedIn",
+  },
   { icon: Twitter, href: "#", label: "Twitter" },
 ];
 
@@ -26,7 +30,8 @@ export const Footer = () => {
               PM<span className="text-primary">.</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} Pedro Machado. All rights reserved.
+              © {currentYear} ORTHI DEB SITHI || Crafting code with passion &
+              precision.
             </p>
           </div>
 
