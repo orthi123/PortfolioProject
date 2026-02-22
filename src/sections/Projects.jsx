@@ -8,7 +8,7 @@ const projects = [
     image: "/projects/project1.png",
     tags: ["React", "Typescript", "NodeJS"],
     link: "https://weather-app-eight-rho-84.vercel.app/",
-    github: "#",
+    github: "https://github.com/orthi123/weather_app.git",
   },
   {
     title: "E-Commerce Platform",
@@ -16,8 +16,8 @@ const projects = [
       "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
     image: "/projects/project2.png",
     tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "https://weather-app-62j3.vercel.app/",
-    github: "#",
+    link: "https://bootstrap-pink-one.vercel.app/",
+    github: "https://github.com/orthi123/QurierBox.git",
   },
   {
     title: "AI Writing Assistant",
@@ -25,8 +25,8 @@ const projects = [
       "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
     image: "/projects/project3.png",
     tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
+    link: "https://omah-mu.vercel.app/",
+    github: "https://github.com/orthi123/Omah.git",
   },
   {
     title: "Project Management Tool",
@@ -34,8 +34,8 @@ const projects = [
       "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
     image: "/projects/project4.png",
     tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
+    link: "https://omah-5bgs.vercel.app/",
+    github: "https://github.com/orthi123/bootstrap.git",
   },
 ];
 
