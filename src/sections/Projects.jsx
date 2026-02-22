@@ -2,36 +2,36 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Weather App",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
+      "A modern weather analytics app with real-time data updates, smart city search, and clean visual insights.Designed to deliver temperature, humidity, and wind information through an intuitive and user-friendly interface.",
     image: "/projects/project1.png",
     tags: ["React", "Typescript", "NodeJS"],
     link: "https://weather-app-eight-rho-84.vercel.app/",
     github: "https://github.com/orthi123/weather_app.git",
   },
   {
-    title: "E-Commerce Platform",
+    title: "QurierBox Figma",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
+      "A reliable courier service platform that ensures fast and secure product delivery.Built with a clean interface to provide seamless shipment tracking and efficient logistics management.",
     image: "/projects/project2.png",
     tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
     link: "https://bootstrap-pink-one.vercel.app/",
     github: "https://github.com/orthi123/QurierBox.git",
   },
   {
-    title: "AI Writing Assistant",
+    title: "Omah Figma",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
+      "A modern real estate platform that helps users find their ideal family home with ease. Designed with a clean search experience to explore properties by location quickly and efficiently.",
     image: "/projects/project3.png",
     tags: ["React", "OpenAI", "Python", "FastAPI"],
     link: "https://omah-mu.vercel.app/",
     github: "https://github.com/orthi123/Omah.git",
   },
   {
-    title: "Project Management Tool",
+    title: "Bootstrap Project",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
+      "A modern and responsive digital agency website designed to showcase services, portfolio, and pricing with a clean user experience.Built with a focus on visual appeal, smooth navigation, and effective business presentation.",
     image: "/projects/project4.png",
     tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
     link: "https://omah-5bgs.vercel.app/",

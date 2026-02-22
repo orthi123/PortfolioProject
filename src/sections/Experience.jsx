@@ -1,38 +1,38 @@
 const experiences = [
   {
-    period: "2022 — Present",
-    role: "Senior Frontend Engineer",
-    company: "Tech Innovators Inc.",
+    period: "2025 — Present",
+    role: "Senior Web Developer",
+    company: "Self-Employed",
     description:
-      "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
-    technologies: ["React", "TypeScript", "Next.js", "GraphQL"],
+      "Focused on building robust and scalable full-stack applications. Implementing modern architectures with Next.js and Prisma to ensure high performance and seamless user experiences.",
+    technologies: ["Next.js, TypeScript, PostgreSQL"],
     current: true,
   },
   {
-    period: "2020 — 2022",
-    role: "Frontend Engineer",
-    company: "Digital Solutions Co.",
-    description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["React", "Redux", "Jest", "Cypress"],
-    current: false,
-  },
-  {
-    period: "2019 — 2020",
-    role: "Junior Developer",
-    company: "StartUp Labs",
-    description:
-      "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
-    technologies: ["React", "Node.js", "MongoDB", "AWS"],
-    current: false,
-  },
-  {
-    period: "2018 — 2019",
-    role: "Freelance Developer",
+    period: "2024 — 2025",
+    role: "MERN Stack Developer",
     company: "Self-Employed",
     description:
-      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-    technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
+      "Transitioned into full-stack development using the MERN stack. Developed real-time applications and integrated complex REST APIs while managing state with Redux and Context API.",
+    technologies: ["MongoDB, Express.js, React, Node.js, Redux."],
+    current: false,
+  },
+  {
+    period: "2024",
+    role: "Frontend Developer",
+    company: "Self-Employed",
+    description:
+      "Deep-dived into advanced React and modern CSS frameworks. Focused on creating pixel-perfect, responsive interfaces and improving frontend load times for various web solutions.",
+    technologies: ["React, Tailwind CSS, Firebase, JavaScript (ES6+)."],
+    current: false,
+  },
+  {
+    period: "2023 — 2024",
+    role: "Junior Web Developer",
+    company: "Self-Employed",
+    description:
+      "Started my web development journey in 2023. Mastered the fundamentals of HTML, CSS, and JavaScript by building numerous landing pages and personal projects to establish a strong technical base.",
+    technologies: ["HTML5, CSS3, JavaScript, Git, GitHub.n"],
     current: false,
   },
 ];
