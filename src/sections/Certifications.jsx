@@ -24,7 +24,7 @@ const certifications = [
   },
 ];
 
-export const Testimonials = () => {
+export const Certifications = () => {
   const [activeIdx, setActiveIdx] = useState(0);
 
   const next = () => {
@@ -38,7 +38,8 @@ export const Testimonials = () => {
   };
 
   return (
-    <section id="testimonials" className="py-32 relative overflow-hidden">
+    <section id="certifications" className="py-32 relative overflow-hidden">
+      {/* background blur */}
       <div
         className="absolute top-1/2 left-1/2
         w-[800px] h-[800px] bg-primary/5
@@ -85,6 +86,7 @@ export const Testimonials = () => {
           {/* Navigation */}
           <div className="flex items-center justify-center gap-4 mt-8">
             <button
+              aria-label="Previous"
               className="p-3 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all"
               onClick={previous}
             >
@@ -95,6 +97,7 @@ export const Testimonials = () => {
               {certifications.map((_, idx) => (
                 <button
                   key={idx}
+                  aria-label={`Go to certificate ${idx + 1}`}
                   onClick={() => setActiveIdx(idx)}
                   className={`w-2 h-2 rounded-full transition-all duration-300 ${
                     idx === activeIdx
@@ -106,6 +109,7 @@ export const Testimonials = () => {
             </div>
 
             <button
+              aria-label="Next"
               onClick={next}
               className="p-3 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all"
             >
