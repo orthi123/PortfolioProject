@@ -126,9 +126,9 @@ export const Hero = () => {
             </div>
           </div>
           {/* Right Column - Profile Image */}
-          <div className="relatice animate-fade-in animation-delay-300">
+          <div className=" flex justify-end relatice animate-fade-in animation-delay-300">
             {/* Profile Image */}
-            <div className="relative max-w-md mx-auto">
+            <div className="relative max-w-md ">
               <div
                 className="absolute inset-0 
               rounded-3xl bg-gradient-to-br 
@@ -138,7 +138,7 @@ export const Hero = () => {
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
                   src="/profile-photo2.jpg"
-                  alt="ORTHI DEB SITHI"
+                  alt="ORTHI DEB SITHI" 
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
 
